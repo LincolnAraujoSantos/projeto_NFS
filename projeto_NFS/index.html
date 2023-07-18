@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto NSF</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo nsf.png" alt="logo nfs">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+                <!-- ALEX -->
+                <li class="personagem selecionado" id="alex" data-name="Alex" data-description="Alex Thompson dirige um Audi RS3.Ele cresceu nas ruas, desenvolvendo sua paixão por corridas desde cedo. Embora não tenha muitos recursos financeiros, Alex é um dos melhores pilotos da cidade. Ele compete para provar seu talento e conquistar respeito nas corridas de rua.">
+                    
+                    <img src="./src/imagens/Alex.jpg" alt="Personagem Alex">
+                </li>
+
+                <!--VIPER-->
+                <li class="personagem selecionado" id="viper" data-name="Viper" data-description="Victor Thompson, Viper, é um piloto astuto e impiedoso. Seu carro é o Honda Civic Type R. Ele é conhecido por ser um dos pilotos mais perigosos das corridas de rua e sempre busca a vitória a qualquer custo. Viper manipula situações e não mede esforços para prejudicar seus concorrentes. Sua aparência intimidadora e atitude agressiva o tornam um adversário formidável.">
+                    <img src="./src/imagens/Viper.jpg" alt="Personagem Viper">
+                    
+                </li>
+
+                <!--JAKE-->
+                <li class="personagem selecionado" id="jake" data-name="Jake" data-description="Jake Thompson é um ex-piloto de corrida que cumpriu pena na prisão por envolvimento em atividades ilegais relacionadas a corridas. Seu carro é um VW Gold Gti. Ele agora busca redenção e uma nova chance nas corridas de rua. Jake é determinado, mas precisa provar que deixou seu passado para trás e recuperar sua reputação.">
+                    <img src="./src/imagens/Jake.jpg" alt="Personagem Jake">
+                </li>
+
+                <!--BENJAMIN-->
+                <li class="personagem selecionado" id="benjamin" data-name="Benjamin" data-description="Benjamin é um policial dedicado e destemido que se envolve em uma missão de combate às corridas de rua ilegais. Com um forte senso de justiça, ele está determinado a trazer à luz a verdade por trás dessas competições clandestinas e garantir a segurança das ruas. Seu carro é um BMW M3">
+                    <img src="./src/imagens/Benjamin.jpg" alt="Personagem Benjamin">
+                </li>
+
+                <!--BILLY-->
+                <li class="personagem selecionado" id="billy" data-name="Billy" data-description="Billy é o parceiro de Benjamin na força policial, mas ele é um personagem sombrio e corrupto. Embora compartilhem o objetivo de investigar as corridas de rua, as motivações de Billy estão longe de serem puras. Seu carro é um Honda Accord.">
+                    <img src="./src/imagens/Billy.jpg" alt="Personagem Billy">
+                </li>
+
+                <!--FLY-->
+                <li class="personagem selecionado" id="fly" data-name="Fly" data-description="Fly é um piloto profissional destemido que busca emoção e desafio nas corridas de rua. Com sua habilidade excepcional ao volante e uma paixão inabalável pela velocidade, ele se aventura nas ruas noturnas, onde as corridas ilegais ganham vida. Seu carro é um Mercedez CLA250">
+                    <img src="./src/imagens/fly.jpg" alt="Personagem Fly">
+                </li>
+
+                <!--KYRA-->
+                <li class="personagem selecionado" id="kyra" data-name="kyra" data-description="Kyra é uma pilota habilidosa, conhecida por sua astúcia e capacidade de escapar das autoridades durante as corridas ilegais. Kyra é uma especialista em manobras evasivas e sempre está um passo à frente de seus perseguidores. Ela pilota um Subaru BRZ">
+                    <img src="./src/imagens/kyra.jpg" alt="Personagem Kyra">
+                </li>
+
+                <!--RAY-->
+                <li class="personagem selecionado" id="ray" data-name="Ray" data-description="Ray é um piloto de corrida de carros conhecido por sua personalidade mimada ele vive no mundo da velocidade com uma atitude arrogante e um estilo de vida extravagante. Seu talento nas pistas é inegável, mas sua falta de humildade e tendência a subestimar seus oponentes criam uma dinâmica interessante nas corridas. Seu carro é um Toyota GT86">
+                    <img src="./src/imagens/Ray.jpg" alt="Personagem Ray">
+                </li>   
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-alex.jpg" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Alex</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Alex Thompson dirige um Audi RS3.Ele cresceu nas ruas, desenvolvendo sua paixão por corridas desde cedo. Embora não tenha muitos recursos financeiros, Alex é um dos melhores pilotos da cidade. Ele compete para provar seu talento e conquistar respeito nas corridas de rua.</p>
+        </section>
+
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
